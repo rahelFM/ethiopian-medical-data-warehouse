@@ -79,21 +79,6 @@ git clone <your-repo-url>
 cd ethiopian-medical-data-pipeline
 Configure environment variables
 
-env
-Copy
-Edit
-TELEGRAM_API_ID=your_api_id
-TELEGRAM_API_HASH=your_api_hash
-POSTGRES_USER=postgres
-POSTGRES_PASSWORD=postgres
-POSTGRES_DB=medical_data
-POSTGRES_HOST=db
-POSTGRES_PORT=5432
-Build and run the Docker container
-
-bash
-Copy
-Edit
 docker-compose build
 docker-compose run app bash
 Authenticate with Telegram once
