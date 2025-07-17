@@ -3,11 +3,11 @@ pandas
 sqlalchemy
 psycopg2-binary
 python-dotenv
-ultralytics
-dbt-core
-dbt-postgres
-fastapi
+#ultralytics
+#dbt-core
+#dbt-postgres
+#fastapi
 uvicorn
 pydantic
-dagster
-dagster-webserver
+#dagster
+#dagster-webserver
